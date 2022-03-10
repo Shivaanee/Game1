@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Game1</title>
+        <link rel="stylesheet" href="../style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="../game.js"></script>
+        <noscript>Warning - JavaScript is disabled. For full functionality of this page, it is necessary to enable JavaScript.</noscript>
+        <script>
+            var foozie;
+            var zombies;
+            var portal;
+            var bestTime;
+            var update;
+            var updateTimerZombie;
+            var updateTimerZombieY;
+        </script>
+    </head>
+    <body id="body" onload="start();">
+        <div class="wrapper">
+            <header>
+                <h1>Game1</h1>
+                <nav>
+                    <span><a href="../index.html" id="home-nav">Home</a></span>
+                    <span><a href="../instructions.html" id="instructions-nav">How To Play</a></span>
+                    <!-- <span><a href="">Contact</a></span> -->
+                </nav>
+            </header>
+
+            <div class="playing" id="content">
+                <span id="Level">Level </span> &nbsp;
+                <span id="timer"></span>
+                <img src="../game-elements/foozie.gif" id="foozie" alt="">
+                <img src="../game-elements/portalDark.webp" id="portal" alt="">
+            </div>
+
+            <footer>
+                <!-- Contact -->
+                <a href="mailto:shivaaneeeswaran2003@gmail.com"><img src="../iconMail.png" alt=""></a>
+                <a href="https://www.instagram.com/shivvx29/"><img src="../iconIg.png" alt=""></a>
+            </footer>
+        </div>
+    </body>
+</html>
